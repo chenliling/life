@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/record/record",
+    "pages/person/person",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"#eee",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "美好生活",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"#333",
+    "selectedColor":"#56abe4",
+    "backgroundColor":"#fff",
+    "borderStyle":"white",
+    "list":[
+      {
+        "pagePath":"pages/home/home",
+        "text":"首页天地",
+        "iconPath":"img/commen/resource_normal@2x.png",
+        "selectedIconPath":"img/commen/resource_press@2x.png"
+      },
+      {
+        "pagePath": "pages/record/record",
+        "text": "记录生活",
+        "iconPath": "img/commen/home_press@2x.png",
+        "selectedIconPath": "img/commen/home_press@2x.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "个人空间",
+        "iconPath": "img/commen/personal_normal@2x.png",
+        "selectedIconPath": "img/commen/personal_press@2x.png"
+          }
+    ]
+  }
+}
